@@ -252,10 +252,10 @@ we're going to need to do  bit of cleanup for this to work
 ```html
 //...
 
-      <g id="DC">
+      <g>
         <title>District of Columbia</title>
         <path id="DC1" d="M801.8 253.8l-1.1-1.6-1-.8 1.1-1.6 2.2 1.5z"/>
-        <circle id="DC2" stroke="#FFFFFF" strokeWidth="1.5" cx="801.3" cy="251.8" r="5" opacity="1"/>
+        <circle id="DC2" stroke="#FFFFFF" strokeWidth="1.5" cx="801.3" cy="251.8" r="5" opacity="1" id="DC"/>
       </g>
     </g>
   </svg>

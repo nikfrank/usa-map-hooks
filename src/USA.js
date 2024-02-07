@@ -152,9 +152,9 @@ export default ({ mapColors={}, fallback='black', onClick })=>(
     <path fill={mapColors.WY || fallback} id='WY'
           d="M353 161.9l-1.5 25.4-4.4 44-2.7-.3-83.3-9.1-27.9-3 2-12 6.9-41 3.8-24.2 1.3-11.2 48.2 7 59.1 6.5z"/>
     
-    <g fill={mapColors.DC || fallback} id='DC'>
+    <g fill={mapColors.DC || fallback}>
       <path d="M801.8 253.8l-1.1-1.6-1-.8 1.1-1.6 2.2 1.5z"/>
-      <circle stroke='#FFF' strokeWidth="1.5" cx="801.3" cy="251.8" r="5"/>
+      <circle stroke='#FFF' strokeWidth="1.5" cx="801.3" cy="251.8" r="5" id='DC'/>
     </g>
     
     <path id="frames" fill="none" stroke="#A9A9A9" strokeWidth="2" d="M215 493v55l36 45M0 425h147l68 68h85l54 54v46"/>
